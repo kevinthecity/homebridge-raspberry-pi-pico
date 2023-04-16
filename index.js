@@ -1,5 +1,4 @@
 const { HomebridgePlatform } = require('homebridge-platform');
-const { PLATFORM_NAME } = require('./settings');
 const RaspberryPiPicoPlatform = require('./RaspberryPiPicoPlatform');
 
 class RaspberryPiPicoPlugin extends HomebridgePlatform {
@@ -12,7 +11,7 @@ class RaspberryPiPicoPlugin extends HomebridgePlatform {
     }
 
     // Register the RaspberryPiPicoPlatform with Homebridge.
-    api.registerPlatform(PLATFORM_NAME, RaspberryPiPicoPlatform);
+    api.registerPlatform(RaspberryPiPicoPlatform.PLATFORM_NAME, RaspberryPiPicoPlatform);
   }
 }
 
@@ -21,5 +20,5 @@ module.exports = (api) => {
 
   // For dynamic platform plugins, registerPlatform is called once for each instance of the platform
   // when it is accessed by Homebridge.
-  api.registerPlatform(PLATFORM_NAME, RaspberryPiPicoPlugin);
+  api.registerPlatform(RaspberryPiPicoPlatform.PLATFORM_NAME, RaspberryPiPicoPlugin);
 };
