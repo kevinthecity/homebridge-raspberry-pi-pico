@@ -1,5 +1,5 @@
 const { HomebridgePlatform } = require('homebridge-platform');
-const RaspberryPiPicoPlatform = require('./RaspberryPiPicoPlatform');
+const RaspberryPiPicoPlatform = require('./accessories/RaspberryPiPicoAccessory');
 
 class RaspberryPiPicoPlugin extends HomebridgePlatform {
   constructor(log, config, api) {
