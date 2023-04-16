@@ -57,7 +57,3 @@ class RaspberryPiPicoAccessory {
     }
   }
 }
-
-module.exports = (api) => {
-  api.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, RaspberryPiPicoPlatform);
-};
