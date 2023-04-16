@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-raspberry-pi-pico",
+  "name": "homebridge-plugin-raspberry-pi-pico",
   "displayName": "Homebridge Raspberry Pi Pico",
   "version": "1.0.0",
   "description": "A Homebridge plugin for controlling a Raspberry Pi Pico",
