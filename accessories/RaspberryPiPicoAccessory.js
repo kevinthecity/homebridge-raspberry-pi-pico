@@ -4,6 +4,7 @@ const PLUGIN_NAME = 'RaspberryPiPicoPlugin';
 const PLATFORM_NAME = 'RaspberryPiPicoPlatform';
 
 class RaspberryPiPicoPlatform {
+
   constructor(log, config) {
     this.log = log;
     this.apiUrl = config.apiUrl;
@@ -56,4 +57,10 @@ class RaspberryPiPicoAccessory {
       callback(error);
     }
   }
+}
+
+module.exports = {
+    RaspberryPiPicoPlatform,
+    PLUGIN_NAME,
+    PLATFORM_NAME
 }
