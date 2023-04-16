@@ -20,7 +20,8 @@
   "keywords": [
     "homebridge",
     "raspberry pi pico",
-    "homekit"
+    "homekit",
+    "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
