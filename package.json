@@ -1,0 +1,26 @@
+{
+  "name": "homebridge-raspberry-pi-pico",
+  "version": "1.0.0",
+  "description": "A Homebridge plugin for controlling a Raspberry Pi Pico",
+  "main": "index.js",
+  "author": {
+    "name": "Kevin Grant",
+    "email": "kevingrant5@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "keywords": [
+    "homebridge",
+    "raspberry pi pico",
+    "homekit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/homebridge-raspberry-pi-pico.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
